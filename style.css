@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "League Spartan", sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+h3 {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: "Righteous", sans-serif;
+}
+
+p{
+    font-size: 1.50rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.btn{
+    background-color: white;
+    color:#E81517;
+    padding: 1rem;
+   border: none;
+ }
+
+ .btn a{
+    font-weight: bold;
+    color:#E81517;
+    text-decoration: none;
+   
+ }
+
+.banner{
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url(animatedlogo.gif);
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aqua;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.icons-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.icons-container a{
+   color: aqua;
+   font-size: 3rem;
+}
+
+.hashtag {
+    color:#E81517 ;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.services {
+    width: 100%;
+    color: white;
+    background-color: #E81517;
+  
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.website,.social-media-setup, .social-media-managment, .app-idea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border:5px solid white;
+   gap: 1rem;
+   
+    padding: 5rem ;
+    box-shadow: 3px 3px 3px white;
+}
+
+
+.services img {
+    width: 30%;
+ } 
+
+ 
+ .instagram {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 1rem;
+    background-color: #9EF228;
+    gap: 2rem;
+ }
+
+ .ig-contaier{
+    width: 50%;
+ }
+
+ 
+
+ 
+
+ @media (max-width:500px) {
+
+    
+    h2{
+        font-size: 2rem;
+       
+    }
+    h3 {
+       
+        font-size: 2rem;
+      
+    }
+    
+    p{
+        font-size: 1.25rem;
+      
+    }
+    
+ 
+    .banner{
+        width: 100%;
+        padding: 2rem;
+
+    }
+    .services {
+        width: 100%;
+      
+      
+        padding: 5rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .website,.social-media-setup, .social-media-managment, .app-idea {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border:2px solid white;
+        gap: 1rem;
+       
+        padding: 2rem 1rem ;
+        box-shadow: 3px 3px 3px white;
+    }
+
+     .services img {
+        width: 80%;
+     } 
+
+     
+     .instagram {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5rem 1rem;
+      
+        gap: 2rem;
+     }
+
+     .ig-contaier{
+        width: 100%;
+     }
+
+   
+ }
+
+  footer {
+    width: 100%;
+    background-color: #7E11F3;
+    padding: 5rem 1rem;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px 2px rgb(10, 10, 10);
+  }
