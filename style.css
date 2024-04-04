@@ -57,6 +57,7 @@ p{
 .price {
     color:white;
     margin-top: .50rem;
+    font-weight: bold;
 }
 
 .product{
